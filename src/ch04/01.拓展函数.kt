@@ -12,14 +12,16 @@ fun main(args: Array<String>) {
 
     println("kotlin".getLastChar())
 
+    println("kotlin".lastChar)
+
 }
+
+val String.lastChar: Char
+    get() = get(length - 1)
 
 fun String.getLastChar(): String {
     return this.substring(this.length - 1, this.length)
 }
 
 
-class View{
-
-}
 
