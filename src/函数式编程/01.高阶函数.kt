@@ -21,9 +21,7 @@ fun main(args: Array<String>) {
     println(oddLength)
 
 
-    val addOneLambda = { x: Int ->
-        x + 1
-    }
+    val addOneLambda = { x: Int -> x + 1 }
 
     println(addOneLambda(1))
 

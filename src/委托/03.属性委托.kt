@@ -12,7 +12,7 @@ import kotlin.reflect.KProperty
 
 class NormalPropertiesDemo {
 
-    var content: String = "Normal Properties init content"
+    var content: String = "Normal IO_11_Properties init content"
 
 }
 
